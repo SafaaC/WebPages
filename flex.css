@@ -1,0 +1,17 @@
+.parent{
+    border: 3px groove lavender;
+    margin: 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+div{
+    display: inline-block;
+    width:250px;
+    height:250px;
+    font-size: 50px;
+   margin: 50px;
+   text-align: center;
+
+    background-color: rgb(107, 238, 75);
+}

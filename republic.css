@@ -1,0 +1,39 @@
+h1{
+    color: rgb(255, 81, 0);
+    text-shadow: 2px 2px yellow;
+    text-align: center;
+    margin: 100px;
+    font-size: 30px;
+}
+.orange
+{
+   
+    background-color: orange;
+    width: 400px;
+    height: 70px;
+    margin: auto;
+    border: 0px 0px ;
+    padding: 30px;
+    
+}
+.white
+{
+    margin: 0px;
+    padding: 20px 620px;
+    box-sizing: border-box;
+    
+}
+img{
+    width:100px;
+    height: 100px;
+}
+.green
+{
+    background-color: green;
+    width: 400px;
+    height: 70px;
+    margin:  0px auto;
+    border: 0px 0px ;
+    padding: 30px;
+    
+}

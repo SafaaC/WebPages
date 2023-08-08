@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>RADIO</h2>
+        <label>Gender : </label>
+        <input type="radio" name ="gender" id="r1"><label for="r1">Male</label>
+        <input type="radio" name ="gender" id="r1"><label for="r1">Female</label>
+        <input type="radio" name ="gender" id="r1"><label for="r1">Others</label>
+
+        <hr>
+
+        <h2>CHECKBOX</h2>
+        <label>Skills : </label>
+        <input type ="checkbox">  <label for="">Java</label>
+        <input type ="checkbox">  <label for="">SQL</label>
+        <input type ="checkbox">  <label for="">JavaScript</label>
+        <input type ="checkbox">  <label for="">HTML</label>
+
+        <hr>
+         
+        <h2>DROPDOWN</h2>
+        <select>
+            <option>Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Others</option>
+        </select>
+        
+        <h3>For Selecting Multiple Options</h3>
+        <select multiple>
+            <option>Skills</option>
+            <option>Java</option>
+            <option>SQL</option>
+            <option>Javascript</option>
+            <option>HTML</option>
+            <option>CSS</option>
+        </select>
+
+        <h3>Search option instead of scrolling fully</h3>
+        <input type ="search" placeholder="enter your collage name" list="college">
+            <datalist id="college">
+                <option>College of Engineering Trikaripur</option>
+                <option>College of Engineering Thalassery</option>
+                <option>College of Engineering Trivandrum</option>
+                <option>IIT</option>
+                <option>NIT</option>
+            </datalist>
+        <h3> Groups inside drowpdown</h3>
+        <label>Select your fav food</label>
+        <select multiple>
+            <optgroup label="non veg">
+                <option>chicken</option>
+                <option>mutton</option>
+                <option>fish</option>
+            </optgroup>
+            <optgroup label="non veg">
+                <option>cabbage</option>
+                <option>beetroot</option>
+                <option>potato</option>
+            </optgroup>
+        </select>
+    
+    </form>
+</body>
+</html>

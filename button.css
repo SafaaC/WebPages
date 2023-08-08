@@ -1,0 +1,14 @@
+.btncolor
+{
+    background-color: rgb(206, 151, 151);
+}
+
+.btnborder 
+{
+    border: 2px dotted blueviolet;
+}
+.textstyle
+{
+    font-style: italic;
+    color: rgb(46, 207, 46);
+}
